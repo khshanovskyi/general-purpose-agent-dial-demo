@@ -18,6 +18,7 @@ from gpa.tools.rag.rag_tool import RagTool
 
 DIAL_ENDPOINT = os.getenv('DIAL_ENDPOINT', "http://localhost:8080")
 DEPLOYMENT_NAME = os.getenv('DEPLOYMENT_NAME', 'gpt-4o')
+# DEPLOYMENT_NAME = os.getenv('DEPLOYMENT_NAME', 'claude-sonnet-4')
 MEMORY_MODEL = os.getenv('MEMORY_MODEL', 'gpt-4.1-nano')
 
 
