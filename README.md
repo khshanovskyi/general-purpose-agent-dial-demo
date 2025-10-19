@@ -31,7 +31,7 @@
 3. In [app.py](gpa/app.py) change the `DEPLOYMENT_NAME` to `claude-sonnet-4` and restart app
 4. Test it again with new Orchestration model. 
 
-> DIAL works on [Unified protocol](https://docs.dialx.ai/platform/core/about-core#unified-api). 
+> DIAL works on [Unified protocol](https://docs.dialx.ai/platform/core/about-core#unified-api) that OpenAI compatible. 
 > So, all the communication within the Platform is done on it. You can connect different models from different vendors 
 > through appropriate adapters and communicate with them with Unified protocol.
 
