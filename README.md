@@ -10,6 +10,8 @@
 > - RAG Search (Makes RAG search. Indexed files preserve during conversation in Cache)
 > - Long-term memory (Stores in DIAL bucket general info about user)
 
+---
+
 ## Set up and run:
 1. Provide `OPENAI_API_KEY` to [core/config.json](core/config.json). `OPENAI_API_KEY` is **required** for `gpt-4o`, `gpt-4.1-nano` and `dall-e-3`. Core config is the place where we provide models and applications configurations for [DIAL Core](https://github.com/epam/ai-dial-core). 
 2. Run [docker-compose](docker-compose.yml). It will run [DIAL Chat](https://github.com/epam/ai-dial-chat) with [Themes](https://github.com/epam/ai-dial-chat-themes), [DIAL Core](https://github.com/epam/ai-dial-core), Redis as storage for conversations and files, [DIAL Adapter OpenAI](https://github.com/epam/ai-dial-adapter-openai) to works with OpenAI models, [DIAL Adapter Bedrock](https://github.com/khshanovskyi/ai-dial-adapter-bedrock) to works with Anthropic models (and other), [DDG MCP Server](https://github.com/khshanovskyi/duckduckgo-mcp-server) for WEB Search, [Python Code Interpreter MCP Server](https://github.com/khshanovskyi/mcp-python-code-interpreter).
@@ -32,3 +34,36 @@
 > DIAL works on [Unified protocol](https://docs.dialx.ai/platform/core/about-core#unified-api). 
 > So, all the communication within the Platform is done on it. You can connect different models from different vendors 
 > through appropriate adapters and communicate with them with Unified protocol.
+
+---
+
+## ⭐ Help DIAL Grow - Star Our Repositories!
+Your support makes a real difference! If you've found DIAL useful, please take 30 seconds to star our GitHub repositories:
+- 🌟 [ai-dial-core](https://github.com/epam/ai-dial-core) - The heart of the DIAL Platform
+- 🌟 [ai-dial-chat](https://github.com/epam/ai-dial-chat) - The DIAL Chat interface
+- 🌟 [ai-dial-sdk](https://github.com/epam/ai-dial-sdk) - The SDK used for development
+
+We are building our community in Discord https://discord.gg/jvTCQv4E4q and would really appreciate if you join us ❤️
+
+---
+
+## 🔗 Additional links:
+- Our site with all the documentation: https://dialx.ai/
+- Try the DIALX Chat with all platform capabilities: https://chat.dialx.ai/marketplace
+- Our YouTube, here you can find a lot of videos of different features of DIAL: https://www.youtube.com/@TeamDIALX
+- Our LinkedIn: https://www.linkedin.com/company/dialx/
+- Our Repositories:
+  - [DIAL Core](https://github.com/epam/ai-dial-core) - The heart of the DIAL Platform
+  - [DIAL Chat](https://github.com/epam/ai-dial-chat) - The DIAL Chat interface
+  - [DIAL Chat Themes](https://github.com/epam/ai-dial-chat-themes) - The DIAL Chat Themes
+  - [DIAL Adapter OpenAI](https://github.com/epam/ai-dial-adapter-openai) - The DIAL Adapter to work with OpenAI Models
+  - [DIAL Adapter Bedrock](https://github.com/khshanovskyi/ai-dial-adapter-bedrock) - The DIAL Adapter to work with Models from AWS Bedrock (Anthropic, Meta, Stability AI, Amazon, AI21 Labs, Cohere)
+  - [DIAL Adapter Vertexai](https://github.com/epam/ai-dial-adapter-vertexai) - The DIAL Adapter to work with Models from Google VertexAI (Gemini, Anthropic)
+  - [DIAL SDK](https://github.com/epam/ai-dial-sdk) - The SDK used for development
+  - [DIAL Helm](https://github.com/epam/ai-dial-helm) - For deployment
+  - [DIAL Admin Backend](https://github.com/epam/ai-dial-admin-backend)
+  - [DIAL Admin Frontend](https://github.com/epam/ai-dial-admin-frontend)
+
+---
+
+<img src="dialx-banner.png">
